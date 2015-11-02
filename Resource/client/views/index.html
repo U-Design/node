@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body ng-app="sample" ng-controller="mainCntrl">
+<form>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <input type="text" placeholder="Name" ng-model="detail.name">
+        <input type="text" placeholder="Company" ng-model="detail.company">
+        <input type="button" value="Send" ng-click="sendData()">
+
+    </fieldset>
+</form>
+
+</body>
+<script type="text/javascript" src="JS/angular/angular.min.js"></script>
+<script type="text/javascript" src="JS/angular/angular-resource.min.js"></script>
+<script type="text/javascript" src="JS/custom/app.js"></script>
+</html>

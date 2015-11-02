@@ -1,0 +1,13 @@
+{
+  "name" : "Job_Portal",
+  "version" : "0.0.1",
+  "author" : "Samir Kishore <samir.kishore@outlook.in>",
+  "description":"A dummy Job Portal with static data",
+
+  "dependencies" : {
+
+    "express" : "~4.9",
+    "body-parser" : "~1"
+
+  }
+}
